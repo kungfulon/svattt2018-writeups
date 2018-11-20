@@ -1,0 +1,7 @@
+syntax = "proto2";
+
+message BotMessage {
+	required bytes cmd = 1;
+	required bytes arg1 = 2;
+	required bytes arg2 = 3;
+}
